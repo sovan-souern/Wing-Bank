@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.contener{
+    width: 100%;
+
+}
+body{
+    background: #a7ca34;
+}
+.contener .card{
+    width: 30%;
+    height: 70vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 25px;
+}
+.contener .card .logo-img img{
+    margin-left: 120px;
+    height: 10vh;
+}
+.contener .card .logo-img h1{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.contener .card .input h2{
+    text-align: center;
+    color: #0278ff;
+}
+.contener .card .input{
+    margin-top: 15px;
+}
+.contener .card .input input{
+    padding: 8px;
+    width: 57.4%;
+    display: flex;
+    margin: 20px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    border: solid 1px rgb(108, 188, 214);
+}
+.contener .card  button{
+    padding: 10px 110px;
+    background: #0278ff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 80px;
+    color: white;
+}
+.contener .card button:hover{
+    background: gray;
+}
+.contener .card .link p{
+    color: #0278ff;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.contener .card .link ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 55%;
+    margin: auto;
+    margin-top: 20px;
+    color: #0278ff;
+}
+.contener .card .link ul li{
+    font-size: 12px;
+}
+ 
